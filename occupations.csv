@@ -1,91 +1,517 @@
-name,category,category_short,employment_k,median_wage_cad,outlook_1_5,education_1_4,ai_exposure_0_10
-Senior Managers,Management,MGMT,200,55,3,4,6
-Administrative & Financial Managers,Management,MGMT,250,40,3,3,7
-Financial Managers,Management,MGMT,150,55,4,3,7
-HR Managers,Management,MGMT,100,45,3,3,6
-Sales & Marketing Managers,Management,MGMT,180,48,3,3,6
-Construction Managers,Management,MGMT,120,42,4,2,4
-Restaurant Managers,Management,MGMT,200,22,3,1,4
-Accountants & Auditors,Business & Finance,BIZ,350,38,4,3,8
-Financial Advisors,Business & Finance,BIZ,150,42,4,3,6
-Administrative Assistants,Business & Finance,BIZ,400,25,2,1,8
-HR Specialists,Business & Finance,BIZ,200,32,3,3,7
-Bookkeepers,Business & Finance,BIZ,250,24,3,2,9
-Payroll Administrators,Business & Finance,BIZ,100,28,3,2,9
-Insurance Agents,Business & Finance,BIZ,120,30,3,2,6
-Receptionists,Business & Finance,BIZ,200,19,2,1,7
-Data Entry Clerks,Business & Finance,BIZ,100,19,1,1,10
-Purchasing Agents,Business & Finance,BIZ,80,32,3,3,7
-Software Developers,Science & Technology,STEM,450,55,5,3,9
-Civil Engineers,Science & Technology,STEM,150,45,4,3,5
-Electrical Engineers,Science & Technology,STEM,100,48,4,3,6
-Mechanical Engineers,Science & Technology,STEM,120,45,3,3,6
-Environmental Scientists,Science & Technology,STEM,80,38,4,3,6
-IT Support Specialists,Science & Technology,STEM,200,30,3,2,6
-Database & Cloud Admins,Science & Technology,STEM,80,48,4,3,8
-Cybersecurity Analysts,Science & Technology,STEM,60,52,5,3,6
-Data Scientists,Science & Technology,STEM,90,58,5,3,8
-Geologists,Science & Technology,STEM,50,45,3,3,5
-Architects,Science & Technology,STEM,40,42,3,3,7
-Registered Nurses,Health & Medicine,HLTH,450,42,5,3,4
-Physicians & Surgeons,Health & Medicine,HLTH,120,100,4,4,5
-Pharmacists,Health & Medicine,HLTH,80,52,3,4,6
-Dentists,Health & Medicine,HLTH,35,85,3,4,3
-Personal Support Workers,Health & Medicine,HLTH,300,22,5,1,2
-Medical Lab Technologists,Health & Medicine,HLTH,80,35,4,2,6
-Physiotherapists,Health & Medicine,HLTH,45,42,4,4,3
-Paramedics,Health & Medicine,HLTH,30,30,3,2,2
-Dental Hygienists,Health & Medicine,HLTH,45,42,3,2,3
-Veterinarians,Health & Medicine,HLTH,20,50,4,4,4
-Occupational Therapists,Health & Medicine,HLTH,25,40,4,4,4
-Elementary Teachers,Education & Social,EDU,250,42,3,3,5
-Secondary Teachers,Education & Social,EDU,200,45,3,3,5
-College Instructors,Education & Social,EDU,100,42,3,3,6
-Social Workers,Education & Social,EDU,150,32,4,3,5
-Lawyers & Notaries,Education & Social,EDU,120,65,4,4,7
-Early Childhood Educators,Education & Social,EDU,200,20,4,2,2
-Police Officers,Education & Social,EDU,100,42,3,2,3
-Firefighters,Education & Social,EDU,40,42,3,2,2
-Community Service Workers,Education & Social,EDU,200,25,4,2,4
-Counsellors & Therapists,Education & Social,EDU,80,35,4,4,5
-Graphic Designers,Arts & Culture,ARTS,80,28,3,2,9
-Writers & Authors,Arts & Culture,ARTS,50,28,2,3,9
-Journalists,Arts & Culture,ARTS,20,28,1,3,8
-Photographers & Videographers,Arts & Culture,ARTS,25,22,2,2,7
-Musicians & Singers,Arts & Culture,ARTS,20,25,2,2,6
-Film & TV Production,Arts & Culture,ARTS,30,32,3,2,7
-Athletes & Coaches,Arts & Culture,ARTS,40,28,3,1,3
-Translators & Interpreters,Arts & Culture,ARTS,15,30,3,3,9
-Retail Salespersons,Sales & Service,SVC,900,17,2,1,5
-Food & Beverage Workers,Sales & Service,SVC,800,17,2,1,3
-Cashiers,Sales & Service,SVC,400,16,1,1,8
-Customer Service Reps,Sales & Service,SVC,300,22,2,1,7
-Truck Drivers,Sales & Service,SVC,350,26,3,1,5
-Security Guards,Sales & Service,SVC,150,19,3,1,3
-Hotel & Hospitality Staff,Sales & Service,SVC,100,18,3,1,4
-Hairstylists & Barbers,Sales & Service,SVC,100,18,3,1,2
-Cleaners & Janitors,Sales & Service,SVC,300,19,3,1,2
-Real Estate Agents,Sales & Service,SVC,80,32,3,2,6
-Electricians,Trades & Transport,TRADE,200,40,4,2,3
-Plumbers & Pipefitters,Trades & Transport,TRADE,160,42,4,2,2
-Carpenters,Trades & Transport,TRADE,150,32,4,2,3
-Welders,Trades & Transport,TRADE,100,28,3,2,4
-Heavy Equipment Operators,Trades & Transport,TRADE,100,30,4,2,4
-Auto Service Technicians,Trades & Transport,TRADE,150,28,3,2,4
-HVAC Technicians,Trades & Transport,TRADE,80,35,4,2,3
-Industrial Electricians,Trades & Transport,TRADE,60,42,4,2,4
-Sheet Metal Workers,Trades & Transport,TRADE,40,32,3,2,3
-Boilermakers,Trades & Transport,TRADE,25,42,3,2,4
-Farmers & Ranchers,Natural Resources,NAT,100,20,2,1,4
-Fishing Industry Workers,Natural Resources,NAT,30,18,2,1,3
-Forestry Workers,Natural Resources,NAT,40,25,2,1,3
-Mining Workers & Supervisors,Natural Resources,NAT,60,38,3,2,4
-Oil & Gas Workers,Natural Resources,NAT,50,42,2,2,4
-Landscapers & Groundskeepers,Natural Resources,NAT,100,18,3,1,2
-Industrial Machine Operators,Manufacturing,MFG,200,22,2,1,6
-Assemblers,Manufacturing,MFG,200,20,1,1,7
-Quality Inspectors,Manufacturing,MFG,80,24,2,2,7
-Food Processing Workers,Manufacturing,MFG,150,18,2,1,5
-Textile Workers,Manufacturing,MFG,30,18,1,1,7
-Utilities Workers,Manufacturing,MFG,50,35,3,2,5
-Print & Publishing Operators,Manufacturing,MFG,20,22,1,2,8
+code,name,cat,emp,wage,outlook,edu,ai
+00012,"Senior managers - financial, communications and other business services",0,53,96,3,4,6
+00011,Senior government managers and officials,0,6,65,3,4,6
+00010,Legislators,0,5,40,3,4,5
+00013,"Senior managers - health, education, social and community services and membership organizations",0,1,55,3,4,6
+00014,"Senior managers - trade, broadcasting and other services",0,1,42,3,4,6
+00015,"Senior managers - construction, transportation, production and utilities",0,1,46,3,4,5
+11100,Financial auditors and accountants,1,247,40,3,4,8
+13100,Administrative officers,1,238,29,3,2,7
+11202,"Professional occupations in advertising, marketing and public relations",1,234,36,2,4,7
+13110,Administrative assistants,1,234,26,3,2,7
+12200,Accounting technicians and bookkeepers,1,204,28,4,3,8
+14200,Accounting and related clerks,1,151,25,3,1,8
+14101,Receptionists,1,145,21,3,1,7
+14100,General office support workers,1,129,24,3,1,8
+11200,Human resources professionals,1,127,41,3,4,7
+11201,Professional occupations in business management consulting,1,122,44,4,4,7
+11102,Financial advisors,1,119,36,3,4,7
+14400,Shippers and receivers,1,115,22,3,1,3
+13112,Medical administrative assistants,1,84,25,5,2,7
+12013,"Supervisors, supply chain, tracking and scheduling coordination occupations",1,81,29,3,3,7
+12102,Procurement and purchasing agents and officers,1,80,36,3,3,7
+10010,Financial managers,1,78,59,3,4,7
+11101,Financial and investment analysts,1,77,43,3,4,8
+10021,"Banking, credit and other investment managers",1,71,57,3,4,7
+12104,Employment insurance and revenue officers,1,66,35,3,3,7
+13111,Legal administrative assistants,1,55,27,3,2,8
+10011,Human resources managers,1,54,58,3,4,6
+10022,"Advertising, marketing and public relations managers",1,53,55,3,4,7
+13102,Payroll administrators,1,53,30,3,2,8
+12101,Human resources and recruitment officers,1,52,33,3,3,7
+13101,Property administrators,1,48,31,3,2,6
+11109,Other financial officers,1,47,38,3,4,7
+12011,"Supervisors, finance and insurance office workers",1,46,35,3,3,7
+12201,Insurance adjusters and claims examiners,1,46,35,3,3,7
+10020,"Insurance, real estate and financial brokerage managers",1,45,59,3,4,6
+12100,Executive assistants,1,42,35,3,3,7
+14111,Data entry clerks,1,36,24,3,1,10
+13201,Production and transportation logistics coordinators,1,33,29,3,2,7
+14404,Dispatchers,1,33,28,3,1,6
+14403,Purchasing and inventory control workers,1,30,24,3,1,7
+12103,Conference and event planners,1,28,28,3,3,6
+12202,Insurance underwriters,1,28,35,3,3,7
+14201,"Banking, insurance and other financial clerks",1,28,25,3,1,8
+11103,"Securities agents, investment dealers and brokers",1,26,43,3,4,7
+14401,Storekeepers and partspersons,1,22,26,2,1,3
+12010,"Supervisors, general office and administrative support workers",1,21,32,3,3,7
+10012,Purchasing managers,1,20,56,3,4,7
+10029,Other business services managers,1,20,49,3,4,6
+14301,"Correspondence, publication and regulatory clerks",1,19,29,3,1,8
+12203,"Assessors, business valuators and appraisers",1,17,35,3,3,7
+14300,Library assistants and clerks,1,15,23,3,1,5
+14102,Personnel clerks,1,13,28,3,1,8
+10019,Other administrative services managers,1,12,50,3,4,6
+10030,Telecommunication carriers managers,1,11,50,3,4,7
+14202,Collection clerks,1,10,28,3,1,8
+12110,"Court reporters, medical transcriptionists and related occupations",1,8,26,3,3,9
+12112,Records management technicians,1,8,31,3,3,7
+13200,"Customs, ship and other brokers",1,8,27,3,2,7
+14103,Court clerks and related court services occupations,1,8,30,3,1,7
+12113,Statistical officers and related research support occupations,1,7,28,3,3,8
+12111,Health information management occupations,1,6,31,3,3,7
+14110,Survey interviewers and statistical clerks,1,6,22,3,1,7
+12012,"Supervisors, library, correspondence and related information workers",1,4,36,3,3,6
+14402,Production logistics workers,1,3,31,3,1,5
+14405,Transportation route and crew schedulers,1,3,33,3,1,7
+14112,Desktop publishing operators and related occupations,1,1,24,3,1,8
+21222,Information systems specialists,2,229,46,4,4,7
+21232,Software developers and programmers,2,156,48,3,4,9
+20012,Computer and information systems managers,2,124,67,3,4,7
+22221,User support technicians,2,119,31,3,3,7
+21231,Software engineers and designers,2,113,56,3,4,9
+21300,Civil engineers,2,66,49,3,4,6
+21223,Database analysts and data administrators,2,52,41,3,4,8
+21230,Computer systems developers and programmers,2,46,43,3,4,9
+21301,Mechanical engineers,2,45,46,3,4,6
+22311,Electronic service technicians (household and business equipment),2,45,26,3,3,3
+21399,Other professional engineers,2,43,50,3,4,7
+21310,Electrical and electronics engineers,2,41,51,3,4,7
+22220,Computer network and web technicians,2,41,36,3,3,7
+22212,Drafting technologists and technicians,2,38,32,3,3,7
+21211,Data scientists,2,37,46,3,4,9
+21221,Business systems specialists,2,35,45,3,4,7
+20010,Engineering managers,2,34,72,3,4,6
+22232,Occupational health and safety specialists,2,33,41,3,3,6
+21220,Cybersecurity specialists,2,32,50,3,4,7
+21311,Computer engineers (except software engineers and designers),2,32,52,3,4,7
+21110,Biologists and related scientists,2,31,40,3,4,6
+21234,Web developers and programmers,2,29,38,3,4,9
+22310,Electrical and electronics engineering technologists and technicians,2,28,36,3,3,5
+21200,Architects,2,27,39,3,4,7
+22300,Civil engineering technologists and technicians,2,27,34,3,3,6
+22100,Chemical technologists and technicians,2,26,30,3,3,6
+22233,Construction inspectors,2,26,38,3,3,4
+22303,Construction estimators,2,23,38,3,3,6
+22301,Mechanical engineering technologists and technicians,2,22,35,3,3,6
+22302,Industrial engineering and manufacturing technologists and technicians,2,22,31,3,3,6
+21321,Industrial and manufacturing engineers,2,20,44,3,4,7
+22222,Information systems testing technicians,2,20,35,3,3,7
+20011,Architecture and science managers,2,16,63,3,4,6
+21202,Urban and land use planners,2,16,46,3,4,6
+21210,"Mathematicians, statisticians and actuaries",2,16,51,3,4,8
+22114,Landscape and horticulture technicians and specialists,2,15,30,3,3,2
+21320,Chemical engineers,2,14,52,3,4,6
+21233,Web designers,2,13,34,3,4,8
+21101,Chemists,2,12,38,3,4,6
+21120,Public and environmental health and safety professionals,2,12,45,3,4,6
+22312,Industrial instrument technicians and mechanics,2,12,46,3,3,3
+21332,Petroleum engineers,2,11,65,3,4,6
+21102,Geoscientists and oceanographers,2,10,50,3,4,6
+22211,Industrial designers,2,10,36,3,3,7
+22101,Geological and mineral technologists and technicians,2,9,31,3,3,5
+22210,Architectural technologists and technicians,2,9,30,3,3,7
+22214,Technical occupations in geomatics and meteorology,2,9,38,3,3,6
+21203,Land surveyors,2,7,42,3,4,4
+22110,Biological technologists and technicians,2,7,29,3,3,6
+22213,Land survey technologists and technicians,2,7,30,3,3,3
+22231,Engineering inspectors and regulatory officers,2,7,36,3,3,6
+21112,"Agricultural representatives, consultants and specialists",2,6,40,3,4,6
+22112,Forestry technologists and technicians,2,6,33,3,3,4
+21330,Mining engineers,2,5,60,3,4,6
+21390,Aerospace engineers,2,5,50,3,4,7
+22230,Non-destructive testers and inspectors,2,5,36,3,3,5
+21111,Forestry professionals,2,4,47,3,4,3
+21331,Geological engineers,2,4,50,3,4,6
+22313,"Aircraft instrument, electrical and avionics mechanics, technicians and inspectors",2,4,40,3,3,3
+21201,Landscape architects,2,3,41,3,4,6
+22113,Conservation and fishery officers,2,3,36,3,3,3
+21109,Other professional occupations in physical sciences,2,2,43,3,4,6
+22111,Agricultural and fish products inspectors,2,2,35,3,3,4
+21100,Physicists and astronomers,2,1,56,3,4,7
+21103,Meteorologists and climatologists,2,1,54,3,4,7
+21322,Metallurgical and materials engineers,2,1,48,3,4,7
+31301,Registered nurses and registered psychiatric nurses,3,363,43,5,4,4
+33102,"Nurse aides, orderlies and patient service associates",3,297,24,4,2,3
+31102,General practitioners and family physicians,3,76,112,5,4,5
+32101,Licensed practical nurses,3,63,31,4,3,4
+31120,Pharmacists,3,48,55,4,4,6
+32201,Massage therapists,3,45,16,4,3,2
+30010,Managers in health care,3,44,55,4,4,6
+32102,Paramedical occupations,3,41,38,4,3,4
+31202,Physiotherapists,3,38,46,3,4,4
+33100,Dental assistants and dental laboratory assistants,3,38,27,3,2,3
+31100,Specialists in clinical and laboratory medicine,3,34,150,3,4,6
+32111,Dental hygienists and dental therapists,3,34,45,3,3,3
+33103,Pharmacy technical assistants and pharmacy assistants,3,34,20,3,2,5
+32124,Pharmacy technicians,3,33,25,3,3,5
+33101,Medical laboratory assistants and related technical occupations,3,33,27,3,2,5
+33109,Other assisting occupations in support of health services,3,32,23,3,2,4
+31300,Nursing coordinators and supervisors,3,28,46,4,4,6
+32121,Medical radiation technologists,3,28,40,4,3,3
+32104,Animal health technologists and veterinary technicians,3,26,23,3,3,4
+31200,Psychologists,3,25,53,3,4,6
+32120,Medical laboratory technologists,3,24,39,4,3,5
+31203,Occupational therapists,3,23,46,3,4,4
+31110,Dentists,3,21,53,5,4,4
+32109,Other technical occupations in therapy and assessment,3,21,27,3,3,5
+31112,Audiologists and speech-language pathologists,3,18,46,3,4,5
+31103,Veterinarians,3,13,60,3,4,5
+32103,"Respiratory therapists, clinical perfusionists and cardiopulmonary technologists",3,13,41,3,3,4
+31121,Dietitians and nutritionists,3,12,42,3,4,6
+32100,Opticians,3,12,28,3,3,5
+31101,Specialists in surgery,3,10,202,3,4,3
+31201,Chiropractors,3,10,30,3,4,3
+32122,Medical sonographers,3,10,42,3,3,4
+31204,Kinesiologists and other professional occupations in therapy and assessment,3,9,32,3,4,5
+31209,Other professional occupations in health diagnosing and treating,3,9,27,3,4,5
+32200,Traditional Chinese medicine practitioners and acupuncturists,3,8,16,3,3,3
+32129,Other medical technologists and technicians,3,7,28,3,3,5
+31111,Optometrists,3,6,39,3,4,4
+31302,Nurse practitioners,3,6,62,3,4,4
+31303,"Physician assistants, midwives and allied health professionals",3,6,47,3,4,4
+32112,Dental technologists and technicians,3,6,29,3,3,5
+32123,Cardiology technologists and electrophysiological diagnostic technologists,3,6,34,3,3,4
+32209,Other practitioners of natural healing,3,5,16,3,3,4
+32110,Denturists,3,2,26,3,3,3
+41221,Elementary school and kindergarten teachers,4,337,43,3,4,5
+42202,Early childhood educators and assistants,4,247,22,3,3,2
+41220,Secondary school teachers,4,175,46,3,4,6
+42201,Social and community service workers,4,156,26,3,3,5
+41210,College and other vocational instructors,4,131,45,3,4,6
+41101,Lawyers and Quebec notaries,4,124,60,3,4,7
+43100,Elementary and secondary school teacher assistants,4,105,25,3,2,5
+41200,University professors and lecturers,4,86,59,3,4,6
+41201,Post-secondary teaching and research assistants,4,84,27,3,4,6
+41403,"Social policy researchers, consultants and program officers",4,80,43,3,4,7
+42100,Police officers (except commissioned),4,80,50,3,3,4
+41300,Social workers,4,78,38,3,4,5
+41301,Therapists in counselling and related specialized therapies,4,70,34,4,4,5
+44101,"Home support workers, caregivers and related occupations",4,67,20,4,1,2
+40030,"Managers in social, community and correctional services",4,47,44,3,4,6
+41404,"Health policy researchers, consultants and program officers",4,45,43,3,4,7
+40021,School principals and administrators of elementary and secondary education,4,40,55,3,4,5
+42101,Firefighters,4,40,46,3,3,2
+41400,"Natural and applied science policy researchers, consultants and program officers",4,38,43,3,4,7
+42200,Paralegals and related occupations,4,36,33,3,3,8
+41402,Business development officers and market researchers and analysts,4,34,44,3,4,7
+40019,Other managers in public administration,4,32,61,3,4,6
+41405,"Education policy researchers, consultants and program officers",4,32,42,3,4,7
+43109,Other instructors,4,32,20,3,2,6
+43201,Correctional service officers,4,26,36,3,2,3
+41320,Educational counsellors,4,24,41,3,4,5
+41302,Religious leaders,4,22,28,3,4,3
+41321,Career development practitioners and career counsellors (except education),4,21,30,3,4,5
+41401,Economists and economic policy researchers and analysts,4,20,48,3,4,8
+44100,Home child care providers,4,20,19,3,1,2
+45100,"Student monitors, crossing guards and related occupations",4,19,20,3,1,2
+40020,Administrators - post-secondary education and vocational training,4,17,56,3,4,6
+43203,"Border services, customs, and immigration officers",4,15,40,3,2,5
+40011,"Government managers - economic analysis, policy development and program administration",4,13,63,3,4,6
+41310,Police investigators and other investigative occupations,4,12,56,3,4,5
+41407,Program officers unique to government,4,11,44,3,4,6
+43202,By-law enforcement and other regulatory officers,4,11,37,3,2,5
+41406,"Recreation, sports and fitness policy researchers, consultants and program officers",4,9,31,3,4,7
+40010,Government managers - health and social policy development and program administration,4,8,62,3,4,6
+41311,Probation and parole officers,4,8,40,3,4,4
+42203,Instructors of persons with disabilities,4,7,30,3,3,4
+42204,Religion workers,4,6,20,3,3,3
+41100,Judges,4,4,186,3,4,5
+41409,Other professional occupations in social science,4,4,40,3,4,6
+40041,Fire chiefs and senior firefighting officers,4,3,63,3,4,3
+43200,Sheriffs and bailiffs,4,3,34,3,2,3
+40012,Government managers - education policy development and program administration,4,1,64,3,4,6
+40040,Commissioned police officers and related occupations in public protection services,4,1,69,3,4,4
+40042,Commissioned officers of the Canadian Armed Forces,4,1,55,3,4,5
+42102,Specialized members of the Canadian Armed Forces,4,1,35,3,3,3
+43204,Operations Members of the Canadian Armed Forces,4,1,34,3,2,3
+44200,Primary combat members of the Canadian Armed Forces,4,1,37,3,1,1
+54100,"Program leaders and instructors in recreation, sport and fitness",5,149,19,2,1,5
+52120,Graphic designers and illustrators,5,93,31,3,3,8
+51120,"Producers, directors, choreographers and related occupations",5,38,41,3,4,7
+52121,Interior designers and interior decorators,5,33,29,3,3,6
+51122,Musicians and singers,5,30,16,3,4,4
+51111,Authors and writers (except technical),5,27,37,3,4,8
+51114,"Translators, terminologists and interpreters",5,24,34,3,4,8
+53110,Photographers,5,22,24,3,2,5
+53122,"Painters, sculptors and other visual artists",5,17,30,3,2,5
+52111,Graphic arts technicians,5,15,35,3,3,8
+52119,"Other technical and coordinating occupations in motion pictures, broadcasting and the performing arts",5,15,33,3,3,6
+53121,"Actors, comedians and circus performers",5,15,24,3,2,3
+51110,Editors,5,14,35,3,4,8
+53120,Dancers,5,14,33,3,2,1
+52113,Audio and video recording technicians,5,13,33,3,3,6
+53201,Coaches,5,13,25,3,2,4
+51113,Journalists,5,11,37,3,4,7
+51100,Librarians,5,10,41,3,4,6
+53123,"Theatre, fashion, exhibit and other creative designers",5,10,31,3,2,7
+53100,"Registrars, restorers, interpreters and other occupations related to museum and art galleries",5,9,21,3,2,6
+53124,Artisans and craftspersons,5,9,20,3,2,2
+51112,Technical writers,5,8,36,3,4,8
+52110,Film and video camera operators,5,8,36,3,3,5
+53111,"Motion pictures, broadcasting, photography and performing arts assistants and operators",5,8,27,3,2,6
+52100,Library and public archive technicians,5,7,28,3,3,6
+50011,"Managers - publishing, motion pictures, broadcasting and performing arts",5,6,50,3,4,6
+50012,"Recreation, sports and fitness program and service directors",5,6,37,3,4,5
+53202,Sports officials and referees,5,6,19,3,2,2
+51121,"Conductors, composers and arrangers",5,4,17,3,4,5
+52114,Announcers and other broadcasters,5,4,28,3,3,7
+50010,"Library, archive, museum and art gallery managers",5,3,45,3,4,6
+51101,Conservators and curators,5,3,36,3,4,6
+53200,Athletes,5,3,28,3,2,1
+52112,Broadcast technicians,5,2,37,3,3,5
+51102,Archivists,5,1,39,3,4,6
+53125,"Patternmakers - textile, leather and fur products",5,1,27,3,2,3
+55109,Other performers,5,1,28,3,1,3
+64100,Retail salespersons and visual merchandisers,6,580,17,3,1,4
+65201,"Food counter attendants, kitchen helpers and related support occupations",6,383,17,2,1,2
+60020,Retail and wholesale trade managers,6,355,43,3,4,6
+65100,Cashiers,6,350,16,2,1,3
+65102,"Store shelf stockers, clerks and order fillers",6,263,17,3,1,2
+64101,Sales and account representatives - wholesale trade (non-technical),6,241,32,3,1,6
+62010,Retail sales supervisors,6,239,22,3,3,5
+65310,Light duty cleaners,6,228,20,3,1,2
+64409,Other customer and information services representatives,6,182,22,2,1,6
+65200,Food and beverage servers,6,176,18,3,1,2
+63200,Cooks,6,172,18,2,2,3
+62100,Technical sales specialists - wholesale trade,6,133,37,3,3,6
+60030,Restaurant and food service managers,6,110,26,3,4,5
+63101,Real estate agents and salespersons,6,107,28,3,2,6
+65312,"Janitors, caretakers and heavy-duty cleaners",6,107,21,3,1,1
+64410,Security guards and related security service occupations,6,104,21,3,1,3
+63210,Hairstylists and barbers,6,90,20,3,2,2
+63100,Insurance agents and brokers,6,87,30,3,2,6
+62020,Food service supervisors,6,76,19,3,3,4
+64400,Customer services representatives - financial institutions,6,72,22,3,1,7
+63211,"Estheticians, electrologists and related occupations",6,71,20,2,2,2
+65211,"Operators and attendants in amusement, recreation and sport",6,65,18,3,1,2
+62200,Chefs,6,64,23,3,3,3
+63102,Financial sales representatives,6,61,32,3,2,7
+64300,MaÃ®tres d'hÃ´tel and hosts/hostesses,6,54,18,3,1,3
+60031,Accommodation service managers,6,51,38,4,4,6
+65311,Specialized cleaners,6,42,19,2,1,2
+62024,Cleaning supervisors,6,40,25,4,3,3
+65220,Pet groomers and animal care workers,6,36,18,3,1,2
+63202,Bakers,6,32,18,3,2,3
+62023,Customer and information services supervisors,6,29,31,3,3,6
+64301,Bartenders,6,29,20,3,1,2
+60010,Corporate sales managers,6,28,60,3,4,6
+62029,Other services supervisors,6,27,23,3,3,5
+65329,Other service support occupations,6,24,18,3,1,3
+62101,Retail and wholesale buyers,6,23,30,3,3,7
+64314,Hotel front desk clerks,6,19,19,3,1,5
+62022,"Accommodation, travel, tourism and related services supervisors",6,17,25,3,3,5
+64312,Airline ticket and service agents,6,16,21,3,1,7
+65109,Other sales related occupations,6,16,19,3,1,6
+64310,Travel counsellors,6,15,24,3,1,6
+64311,Pursers and flight attendants,6,15,31,3,1,3
+63201,Butchers - retail and wholesale,6,14,20,3,2,2
+65320,"Dry cleaning, laundry and related occupations",6,14,20,3,1,2
+60040,Managers in customer and personal services,6,13,34,3,4,6
+64200,"Tailors, dressmakers, furriers and milliners",6,13,19,3,1,2
+65101,Service station attendants,6,12,16,3,1,2
+64401,Postal services representatives,6,10,20,3,1,3
+62201,Funeral directors and embalmers,6,9,31,3,3,2
+64321,Casino workers,6,8,23,3,1,3
+65202,Meat cutters and fishmongers Â– retail and wholesale,6,5,20,3,1,2
+63221,Upholsterers,6,4,22,3,2,2
+64313,"Ground and water transport ticket agents, cargo service representatives and related clerks",6,4,21,3,1,8
+64320,Tour and travel guides,6,4,20,3,1,3
+65210,"Support occupations in accommodation, travel and facilities set-up services",6,4,21,3,1,3
+65229,Other support occupations in personal services,6,4,16,3,1,3
+62021,Executive housekeepers,6,2,22,3,3,2
+62202,"Jewellers, jewellery and watch repairers and related occupations",6,2,22,3,3,2
+64201,"Image, social and other personal consultants",6,2,27,3,1,6
+64322,Outdoor sport and recreational guides,6,2,21,3,1,2
+63220,Shoe repairers and shoemakers,6,1,23,3,2,1
+73300,Transport truck drivers,7,319,26,3,2,3
+75101,Material handlers,7,229,22,2,1,2
+70011,Home building and renovation managers,7,146,22,4,4,5
+75110,Construction trades helpers and labourers,7,143,25,3,1,1
+72410,"Automotive service technicians, truck and bus mechanics and mechanical repairers",7,140,30,3,3,2
+72310,Carpenters,7,132,32,3,3,2
+72200,Electricians (except industrial and power system),7,119,35,3,3,2
+70010,Construction managers,7,109,49,3,4,5
+73301,"Bus drivers, subway operators and other transit operators",7,101,25,4,2,2
+75201,Delivery service drivers and door-to-door distributors,7,98,20,3,1,2
+72106,Welders and related machine operators,7,91,30,2,3,2
+72400,Construction millwrights and industrial mechanics,7,88,37,3,3,2
+73201,General building maintenance workers and building superintendents,7,76,25,3,2,3
+73400,Heavy equipment operators,7,76,32,2,2,2
+72020,"Contractors and supervisors, mechanic trades",7,74,40,3,3,3
+72401,Heavy-duty equipment mechanics,7,71,37,3,3,2
+72021,"Contractors and supervisors, heavy equipment operator crews",7,64,38,3,3,3
+72014,"Contractors and supervisors, other construction trades, installers, repairers and servicers",7,63,38,3,3,3
+75200,Taxi and limousine drivers and chauffeurs,7,62,19,3,1,2
+72300,Plumbers,7,60,34,3,3,2
+73200,Residential and commercial installers and servicers,7,57,26,3,2,2
+72402,"Heating, refrigeration and air conditioning mechanics",7,46,38,3,3,2
+72100,Machinists and machining and tooling inspectors,7,43,30,3,3,3
+73112,Painters and decorators (except interior decorators),7,39,28,3,2,1
+70020,Managers in transportation,7,38,53,3,4,6
+72024,"Supervisors, motor transport and other ground transit operators",7,36,33,3,3,3
+72201,Industrial electricians,7,36,42,3,3,3
+70012,Facility operation and maintenance managers,7,35,45,3,4,5
+74101,Letter carriers,7,33,29,3,1,2
+72011,"Contractors and supervisors, electrical trades and telecommunications occupations",7,32,45,3,3,3
+72013,"Contractors and supervisors, carpentry trades",7,32,38,3,3,2
+72411,"Auto body collision, refinishing and glass technicians and damage repair estimators",7,30,27,3,3,3
+74205,Public works maintenance equipment operators and related workers,7,30,28,3,1,2
+73102,"Plasterers, drywall installers and finishers and lathers",7,28,33,3,2,2
+75212,Public works and maintenance labourers,7,28,27,2,1,2
+72205,Telecommunications equipment installation and cable television service technicians,7,26,34,3,3,3
+72301,"Steamfitters, pipefitters and sprinkler system installers",7,26,44,3,3,2
+73110,Roofers and shinglers,7,23,31,3,2,1
+74100,Mail and parcel sorters and related occupations,7,22,26,3,1,3
+72010,"Contractors and supervisors, machining, metal forming, shaping and erecting trades and related occupations",7,20,40,3,3,3
+74102,Couriers and messengers,7,20,23,3,1,2
+72600,"Air pilots, flight engineers and flying instructors",7,19,52,3,3,3
+72404,Aircraft mechanics and aircraft inspectors,7,18,39,3,3,3
+72500,Crane operators,7,17,43,3,3,2
+73113,Floor covering installers,7,17,26,3,2,1
+73209,Other repairers and servicers,7,17,25,3,2,2
+72105,Ironworkers,7,15,43,3,3,1
+73401,Printing press operators,7,15,25,3,2,3
+74203,Automotive and heavy truck and equipment parts installers and servicers,7,15,20,3,1,2
+72012,"Contractors and supervisors, pipefitting trades",7,14,48,3,3,3
+72102,Sheet metal workers,7,14,34,3,3,2
+74202,Air transport ramp attendants,7,14,23,3,1,2
+72203,Electrical power line and cable workers,7,13,46,3,3,2
+73100,Concrete finishers,7,13,34,3,2,1
+72101,Tool and die makers,7,12,34,3,3,3
+72423,"Motorcycle, all-terrain vehicle and other related mechanics",7,12,30,3,3,2
+72025,"Supervisors, mail and message distribution occupations",7,11,32,3,3,5
+72320,Bricklayers,7,11,40,3,3,1
+72422,Electrical mechanics,7,11,31,3,3,2
+72204,Telecommunications line and cable installers and repairers,7,10,36,3,3,2
+72321,Insulators,7,10,38,3,3,2
+72999,Other technical trades and related occupations,7,10,35,3,3,3
+73101,Tilesetters,7,10,35,3,2,1
+74200,Railway yard and track maintenance workers,7,8,36,3,1,2
+74204,Utility maintenance workers,7,8,34,3,1,2
+75100,Longshore workers,7,7,33,3,1,1
+75119,Other trades helpers and labourers,7,7,24,3,1,2
+72302,Gas fitters,7,6,40,3,3,2
+72406,Elevator constructors and mechanics,7,6,45,3,3,2
+72602,"Deck officers, water transport",7,6,41,3,3,2
+73310,Railway and yard locomotive engineers,7,6,50,3,2,2
+73311,Railway conductors and brakemen/women,7,6,43,3,2,2
+74201,Water transport deck and engine room crew,7,6,28,3,1,1
+72022,"Supervisors, printing and related occupations",7,5,30,3,3,5
+72202,Power system electricians,7,5,47,3,3,3
+72311,Cabinetmakers,7,5,24,3,3,2
+72601,Air traffic controllers and related occupations,7,5,55,3,3,3
+73111,Glaziers,7,5,30,3,2,2
+75211,Railway and motor transport labourers,7,5,22,3,1,2
+72104,Structural metal and platework fabricators and fitters,7,4,29,3,3,2
+72421,Appliance servicers and repairers,7,4,28,3,3,2
+72429,Other small engine and small equipment repairers,7,4,24,3,3,2
+72603,"Engineer officers, water transport",7,4,37,3,3,3
+73202,Pest controllers and fumigators,7,4,26,3,2,2
+70021,Postal and courier services managers,7,3,44,3,4,5
+72103,Boilermakers,7,3,49,3,3,2
+72403,Railway carmen/women,7,3,42,3,3,2
+75210,Boat and cable ferry operators and related occupations,7,3,28,3,1,2
+72420,Oil and solid fuel heating mechanics,7,2,27,3,3,2
+73402,"Drillers and blasters - surface mining, quarrying and construction",7,2,38,3,2,1
+72023,"Supervisors, railway transport operations",7,1,40,3,3,4
+72405,Machine fitters,7,1,35,3,3,3
+72501,Water well drillers,7,1,30,3,3,1
+72604,Railway traffic controllers and marine traffic regulators,7,1,41,3,3,5
+80020,Managers in agriculture,8,122,30,4,4,5
+85121,Landscaping and grounds maintenance labourers,8,80,21,3,1,1
+85100,Livestock labourers,8,31,20,3,1,2
+83100,Underground production and development miners,8,29,42,3,2,1
+84120,Specialized livestock workers and farm machinery operators,8,29,22,3,1,2
+82031,"Contractors and supervisors, landscaping, grounds maintenance and horticulture services",8,25,30,3,3,2
+83101,"Oil and gas well drillers, servicers, testers and related workers",8,24,47,3,2,2
+85101,Harvesting labourers,8,23,18,3,1,1
+85103,Nursery and greenhouse labourers,8,22,20,3,1,2
+82021,"Contractors and supervisors, oil and gas drilling and services",8,18,50,3,3,3
+80010,Managers in natural resources production and fishing,8,14,72,3,4,5
+83121,Fishermen/women,8,11,28,3,2,1
+82030,Agricultural service contractors and farm supervisors,8,9,24,3,3,3
+82020,"Supervisors, mining and quarrying",8,8,51,3,3,3
+83110,Logging machinery operators,8,8,32,3,2,2
+80021,Managers in horticulture,8,7,22,3,4,5
+82010,"Supervisors, logging and forestry",8,5,35,3,3,3
+85111,"Oil and gas drilling, servicing and related labourers",8,5,31,3,1,1
+84101,Oil and gas well drilling and related workers and services operators,8,4,40,3,1,2
+84110,Chain saw and skidder operators,8,4,30,3,1,1
+84100,Underground mine service and support workers,8,3,38,3,1,1
+84111,Silviculture and forestry workers,8,3,25,3,1,2
+84121,Fishing vessel deckhands,8,3,25,3,1,1
+85102,Aquaculture and marine harvest labourers,8,3,22,3,1,2
+85110,Mine labourers,8,3,32,3,1,1
+85120,Logging and forestry labourers,8,2,29,3,1,1
+80022,Managers in aquaculture,8,1,32,3,4,5
+83120,Fishing masters and officers,8,1,40,3,2,2
+85104,Trappers and hunters,8,1,23,3,1,1
+90010,Manufacturing managers,9,110,53,3,4,6
+94140,"Process control and machine operators, food and beverage processing",9,66,22,3,1,3
+95106,Labourers in food and beverage processing,9,53,20,3,1,2
+94107,Machine operators of other metal products,9,38,23,3,1,3
+94219,"Other products assemblers, finishers and inspectors",9,38,22,3,1,3
+94200,"Motor vehicle assemblers, inspectors and testers",9,31,32,3,1,3
+94210,"Furniture and fixture assemblers, finishers, refinishers and inspectors",9,30,23,3,1,2
+92100,Power engineers and power systems operators,9,28,49,3,3,5
+92012,"Supervisors, food and beverage processing",9,27,28,3,3,4
+94105,Metalworking and forging machine operators,9,26,25,3,1,3
+95109,"Other labourers in processing, manufacturing and utilities",9,21,20,3,1,2
+92011,"Supervisors, petroleum, gas and chemical processing and utilities",9,20,43,3,3,5
+92023,"Supervisors, other mechanical and metal products manufacturing",9,19,36,3,3,3
+94141,"Industrial butchers and meat cutters, poultry preparers and related workers",9,19,23,3,1,2
+95103,"Labourers in wood, pulp and paper processing",9,19,24,3,1,2
+94132,Industrial sewing machine operators,9,18,18,3,1,2
+94201,"Electronics assemblers, fabricators, inspectors and testers",9,18,21,3,1,3
+95101,Labourers in metal fabrication,9,18,24,3,1,2
+94204,Mechanical assemblers and inspectors,9,17,26,3,1,2
+90011,Utilities managers,9,16,61,3,4,6
+93101,"Central control and process operators, petroleum, gas and chemical processing",9,16,50,3,2,5
+94111,Plastics processing machine operators,9,15,23,3,1,2
+94213,"Industrial painters, coaters and metal finishing process operators",9,15,25,3,1,2
+94100,"Machine operators, mineral and metal processing",9,14,35,3,1,3
+94110,Chemical plant machine operators,9,14,25,3,1,3
+94211,Assemblers and inspectors of other wood products,9,14,22,3,1,2
+92020,"Supervisors, motor vehicle assembling",9,13,35,3,3,4
+92024,"Supervisors, other products manufacturing and assembly",9,13,31,3,3,5
+92101,Water and waste treatment plant operators,9,12,36,3,3,3
+94106,Machining tool operators,9,12,25,3,1,3
+94202,"Assemblers and inspectors, electrical appliance, apparatus and equipment manufacturing",9,12,22,3,1,3
+92014,"Supervisors, forest products processing",9,11,36,3,3,3
+94203,"Assemblers, fabricators and inspectors, industrial electrical motors and transformers",9,11,23,3,1,2
+92010,"Supervisors, mineral and metal processing",9,10,36,3,3,4
+93200,Aircraft assemblers and aircraft assembly inspectors,9,10,34,3,2,2
+95102,Labourers in chemical products processing and utilities,9,10,25,3,1,2
+92013,"Supervisors, plastic and rubber products manufacturing",9,9,31,3,3,4
+94143,"Testers and graders, food and beverage processing",9,9,25,3,1,2
+94212,"Plastic products assemblers, finishers and inspectors",9,9,22,3,1,2
+94121,"Pulp mill, papermaking and finishing machine operators",9,8,32,3,1,2
+94120,Sawmill machine operators,9,7,27,3,1,2
+95104,Labourers in rubber and plastic products manufacturing,9,7,20,3,1,2
+92022,"Supervisors, furniture and fixtures manufacturing",9,6,28,3,3,4
+94122,Paper converting machine operators,9,6,28,3,1,2
+94124,Woodworking machine operators,9,6,22,3,1,3
+94150,Plateless printing equipment operators,9,6,21,3,1,3
+94103,"Concrete, clay and stone forming operators",9,5,26,3,1,1
+94112,Rubber processing machine operators and related workers,9,5,29,3,1,2
+95100,Labourers in mineral and metal processing,9,5,25,3,1,1
+92021,"Supervisors, electronics and electrical products manufacturing",9,4,34,3,3,5
+94104,"Inspectors and testers, mineral and metal processing",9,4,26,3,1,5
+94129,Other wood processing machine operators,9,4,26,3,1,2
+92015,"Supervisors, textile, fabric, fur and leather products processing and manufacturing",9,3,27,3,3,3
+94123,Lumber graders and other wood processing inspectors and graders,9,3,28,3,1,3
+94142,Fish and seafood plant workers,9,3,17,3,1,2
+95105,Labourers in textile processing and cutting,9,3,18,3,1,2
+95107,Labourers in fish and seafood processing,9,3,18,3,1,2
+94130,"Textile fibre and yarn, hide and pelt processing machine operators and workers",9,2,23,3,1,2
+94152,Binding and finishing machine operators,9,2,22,3,1,2
+93100,"Central control and process operators, mineral and metal processing",9,1,44,3,2,3
+93102,"Pulping, papermaking and coating control operators",9,1,40,3,2,3
+94101,Foundry workers,9,1,25,3,1,1
+94102,Glass forming and finishing machine operators and glass cutters,9,1,23,3,1,2
+94131,"Weavers, knitters and other fabric making occupations",9,1,19,3,1,2
+94133,"Inspectors and graders, textile, fabric, fur and leather products manufacturing",9,1,18,3,1,3
+94151,"Camera, platemaking and other prepress occupations",9,1,26,3,1,8
+94153,Photographic and film processors,9,1,20,3,1,3
+94205,"Machine operators and inspectors, electrical apparatus manufacturing",9,1,22,3,1,3
