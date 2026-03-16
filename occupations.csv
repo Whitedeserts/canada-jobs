@@ -1,0 +1,91 @@
+name,category,category_short,employment_k,median_wage_cad,outlook_1_5,education_1_4,ai_exposure_0_10
+Senior Managers,Management,MGMT,200,55,3,4,6
+Administrative & Financial Managers,Management,MGMT,250,40,3,3,7
+Financial Managers,Management,MGMT,150,55,4,3,7
+HR Managers,Management,MGMT,100,45,3,3,6
+Sales & Marketing Managers,Management,MGMT,180,48,3,3,6
+Construction Managers,Management,MGMT,120,42,4,2,4
+Restaurant Managers,Management,MGMT,200,22,3,1,4
+Accountants & Auditors,Business & Finance,BIZ,350,38,4,3,8
+Financial Advisors,Business & Finance,BIZ,150,42,4,3,6
+Administrative Assistants,Business & Finance,BIZ,400,25,2,1,8
+HR Specialists,Business & Finance,BIZ,200,32,3,3,7
+Bookkeepers,Business & Finance,BIZ,250,24,3,2,9
+Payroll Administrators,Business & Finance,BIZ,100,28,3,2,9
+Insurance Agents,Business & Finance,BIZ,120,30,3,2,6
+Receptionists,Business & Finance,BIZ,200,19,2,1,7
+Data Entry Clerks,Business & Finance,BIZ,100,19,1,1,10
+Purchasing Agents,Business & Finance,BIZ,80,32,3,3,7
+Software Developers,Science & Technology,STEM,450,55,5,3,9
+Civil Engineers,Science & Technology,STEM,150,45,4,3,5
+Electrical Engineers,Science & Technology,STEM,100,48,4,3,6
+Mechanical Engineers,Science & Technology,STEM,120,45,3,3,6
+Environmental Scientists,Science & Technology,STEM,80,38,4,3,6
+IT Support Specialists,Science & Technology,STEM,200,30,3,2,6
+Database & Cloud Admins,Science & Technology,STEM,80,48,4,3,8
+Cybersecurity Analysts,Science & Technology,STEM,60,52,5,3,6
+Data Scientists,Science & Technology,STEM,90,58,5,3,8
+Geologists,Science & Technology,STEM,50,45,3,3,5
+Architects,Science & Technology,STEM,40,42,3,3,7
+Registered Nurses,Health & Medicine,HLTH,450,42,5,3,4
+Physicians & Surgeons,Health & Medicine,HLTH,120,100,4,4,5
+Pharmacists,Health & Medicine,HLTH,80,52,3,4,6
+Dentists,Health & Medicine,HLTH,35,85,3,4,3
+Personal Support Workers,Health & Medicine,HLTH,300,22,5,1,2
+Medical Lab Technologists,Health & Medicine,HLTH,80,35,4,2,6
+Physiotherapists,Health & Medicine,HLTH,45,42,4,4,3
+Paramedics,Health & Medicine,HLTH,30,30,3,2,2
+Dental Hygienists,Health & Medicine,HLTH,45,42,3,2,3
+Veterinarians,Health & Medicine,HLTH,20,50,4,4,4
+Occupational Therapists,Health & Medicine,HLTH,25,40,4,4,4
+Elementary Teachers,Education & Social,EDU,250,42,3,3,5
+Secondary Teachers,Education & Social,EDU,200,45,3,3,5
+College Instructors,Education & Social,EDU,100,42,3,3,6
+Social Workers,Education & Social,EDU,150,32,4,3,5
+Lawyers & Notaries,Education & Social,EDU,120,65,4,4,7
+Early Childhood Educators,Education & Social,EDU,200,20,4,2,2
+Police Officers,Education & Social,EDU,100,42,3,2,3
+Firefighters,Education & Social,EDU,40,42,3,2,2
+Community Service Workers,Education & Social,EDU,200,25,4,2,4
+Counsellors & Therapists,Education & Social,EDU,80,35,4,4,5
+Graphic Designers,Arts & Culture,ARTS,80,28,3,2,9
+Writers & Authors,Arts & Culture,ARTS,50,28,2,3,9
+Journalists,Arts & Culture,ARTS,20,28,1,3,8
+Photographers & Videographers,Arts & Culture,ARTS,25,22,2,2,7
+Musicians & Singers,Arts & Culture,ARTS,20,25,2,2,6
+Film & TV Production,Arts & Culture,ARTS,30,32,3,2,7
+Athletes & Coaches,Arts & Culture,ARTS,40,28,3,1,3
+Translators & Interpreters,Arts & Culture,ARTS,15,30,3,3,9
+Retail Salespersons,Sales & Service,SVC,900,17,2,1,5
+Food & Beverage Workers,Sales & Service,SVC,800,17,2,1,3
+Cashiers,Sales & Service,SVC,400,16,1,1,8
+Customer Service Reps,Sales & Service,SVC,300,22,2,1,7
+Truck Drivers,Sales & Service,SVC,350,26,3,1,5
+Security Guards,Sales & Service,SVC,150,19,3,1,3
+Hotel & Hospitality Staff,Sales & Service,SVC,100,18,3,1,4
+Hairstylists & Barbers,Sales & Service,SVC,100,18,3,1,2
+Cleaners & Janitors,Sales & Service,SVC,300,19,3,1,2
+Real Estate Agents,Sales & Service,SVC,80,32,3,2,6
+Electricians,Trades & Transport,TRADE,200,40,4,2,3
+Plumbers & Pipefitters,Trades & Transport,TRADE,160,42,4,2,2
+Carpenters,Trades & Transport,TRADE,150,32,4,2,3
+Welders,Trades & Transport,TRADE,100,28,3,2,4
+Heavy Equipment Operators,Trades & Transport,TRADE,100,30,4,2,4
+Auto Service Technicians,Trades & Transport,TRADE,150,28,3,2,4
+HVAC Technicians,Trades & Transport,TRADE,80,35,4,2,3
+Industrial Electricians,Trades & Transport,TRADE,60,42,4,2,4
+Sheet Metal Workers,Trades & Transport,TRADE,40,32,3,2,3
+Boilermakers,Trades & Transport,TRADE,25,42,3,2,4
+Farmers & Ranchers,Natural Resources,NAT,100,20,2,1,4
+Fishing Industry Workers,Natural Resources,NAT,30,18,2,1,3
+Forestry Workers,Natural Resources,NAT,40,25,2,1,3
+Mining Workers & Supervisors,Natural Resources,NAT,60,38,3,2,4
+Oil & Gas Workers,Natural Resources,NAT,50,42,2,2,4
+Landscapers & Groundskeepers,Natural Resources,NAT,100,18,3,1,2
+Industrial Machine Operators,Manufacturing,MFG,200,22,2,1,6
+Assemblers,Manufacturing,MFG,200,20,1,1,7
+Quality Inspectors,Manufacturing,MFG,80,24,2,2,7
+Food Processing Workers,Manufacturing,MFG,150,18,2,1,5
+Textile Workers,Manufacturing,MFG,30,18,1,1,7
+Utilities Workers,Manufacturing,MFG,50,35,3,2,5
+Print & Publishing Operators,Manufacturing,MFG,20,22,1,2,8
