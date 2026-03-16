@@ -103,7 +103,6 @@ The data pipeline mirrors Karpathy's approach and can be extended:
 
 - Data pipeline and visualization built with assistance from Claude (Anthropic)
 
----
 ## License
 
 MIT
