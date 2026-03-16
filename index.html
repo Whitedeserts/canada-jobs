@@ -34,7 +34,7 @@
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
     background: var(--bg);
     color: var(--text);
-    max-width: 1100px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 28px 20px 60px;
     font-size: 15px;
@@ -285,7 +285,7 @@ let DATA = [];
 function build() {
   const wrap = document.getElementById("wrap");
   const W = wrap.clientWidth || 900;
-  const H = Math.min(Math.round(W * 0.58), 580);
+  const H = Math.min(Math.round(W * 0.65), 900);
   const svg = document.getElementById("treemap");
   svg.setAttribute("width", W);
   svg.setAttribute("height", H);
