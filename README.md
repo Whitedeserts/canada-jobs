@@ -2,7 +2,7 @@
 
 Analyzing how susceptible every occupation in the Canadian economy is to AI and automation, using data from the [ESDC Job Bank](https://www.jobbank.gc.ca/trend-analysis/search-occupations) (NOC 2021) and Statistics Canada Labour Force Survey.
 
-**Live demo:** `https://whitedeserts.github.io/canada-jobs/`
+**Live demo:** [Click here](https://whitedeserts.github.io/canada-jobs/)
 
 Inspired by [karpathy/jobs](https://github.com/karpathy/jobs) — a similar tool for the US economy using BLS data.
 
