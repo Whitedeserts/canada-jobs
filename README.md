@@ -99,7 +99,11 @@ The data pipeline mirrors Karpathy's approach and can be extended:
 5. **Finer NOC granularity** — the current dataset uses ~90 representative occupations; a full NOC 2021 scrape covers 500+ unit groups
 
 ---
+## Credits
 
+- Data pipeline and visualization built with assistance from Claude (Anthropic)
+
+---
 ## License
 
 MIT
