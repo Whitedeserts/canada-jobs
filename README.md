@@ -4,8 +4,6 @@ Analyzing how susceptible every occupation in the Canadian economy is to AI and 
 
 **Live demo:** `https://whitedeserts.github.io/canada-jobs/`
 
-![Canada Job Market Treemap](preview.png)
-
 Inspired by [karpathy/jobs](https://github.com/karpathy/jobs) — a similar tool for the US economy using BLS data.
 
 ---
@@ -86,16 +84,6 @@ python -m http.server 8000
 # open http://localhost:8000
 ```
 
----
-
-## Deploying to GitHub Pages
-
-1. Push this repo to GitHub
-2. Go to **Settings → Pages**
-3. Set source to **Deploy from a branch**, branch `main`, folder `/site`
-4. Your site will be live at `https://whitedeserts.github.io/canada-jobs/`
-
----
 
 ## Extending this
 
