@@ -2,7 +2,7 @@
 
 Analyzing how susceptible every occupation in the Canadian economy is to AI and automation, using data from the [ESDC Job Bank](https://www.jobbank.gc.ca/trend-analysis/search-occupations) (NOC 2021) and Statistics Canada Labour Force Survey.
 
-**Live demo:** `https://YOUR_USERNAME.github.io/canada-jobs/`
+**Live demo:** `https://whitedeserts.github.io/canada-jobs/`
 
 ![Canada Job Market Treemap](preview.png)
 
@@ -80,7 +80,7 @@ Employment figures are approximate estimates based on published LFS ranges. Wage
 No build step required — the site is a single self-contained HTML file loading data from `data.json`.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/canada-jobs
+git clone https://github.com/whitedeserts/canada-jobs
 cd canada-jobs/site
 python -m http.server 8000
 # open http://localhost:8000
@@ -93,7 +93,7 @@ python -m http.server 8000
 1. Push this repo to GitHub
 2. Go to **Settings → Pages**
 3. Set source to **Deploy from a branch**, branch `main`, folder `/site`
-4. Your site will be live at `https://YOUR_USERNAME.github.io/canada-jobs/`
+4. Your site will be live at `https://whitedeserts.github.io/canada-jobs/`
 
 ---
 
