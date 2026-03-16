@@ -6,6 +6,9 @@ Analyzing how susceptible every occupation in the Canadian economy is to AI and 
 
 Inspired by [karpathy/jobs](https://github.com/karpathy/jobs) — a similar tool for the US economy using BLS data.
 
+Note:This is a research tool for visually exploring ESDC Job Bank and Statistics Canada labour market data. This is not a report, a paper, or a serious economic publication — it is a development tool for exploring Canadian occupational data visually.
+
+
 ---
 
 ## What's here
