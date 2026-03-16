@@ -460,7 +460,7 @@ fetch("data.json")
     const tot = DATA.reduce((s, o) => s + o.emp, 0);
     document.getElementById("nc").textContent = DATA.length;
     document.getElementById("jc").textContent = `${(tot/1000).toFixed(1)}M`;
-    document.getElementById("total-jobs").textContent = `${(tot).toLocaleString()}K`;
+    document.getElementById("total-jobs").textContent = `${(tot/1000).toFixed(1)}M`;
     build();
     renderLegend();
   });
